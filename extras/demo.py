@@ -1,6 +1,7 @@
 import random
 import pymysql
-from apuracao import apurar_votos
+from sistema.apuracao import apurar_votos 
+
 
 
 def conectar_banco():

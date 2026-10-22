@@ -50,21 +50,24 @@ Todo o sistema é executado via terminal com um menu interativo e persistência 
 ```
 urna-eletronica/
 │
-├── urna.py                    # Menu principal (ponto de entrada)
-├── criar_banco.py             # Cria o banco de dados
-├── criar_tabelas.py           # Cria as tabelas
-├── teste_conexao.py           # Testa a conexão com o banco
-├── limpar_dados.py            # Zera votos e eleitores (auxiliar)
+├── urna.py                      # Menu principal (ponto de entrada)
+├── README.md                    # Documentação do projeto
 │
-├── cadastrar_candidatos.py    # Cadastro e listagem de candidatos
-├── eleitores.py               # Cadastro de eleitores
-├── votacao.py                 # Registro de votos
-├── apuracao.py                # Apuração e resultado
+├── banco_dados/
+│   ├── criar_banco.py           # Cria o banco de dados
+│   ├── criar_tabelas.py         # Cria as tabelas
+│   ├── teste_conexao.py         # Testa a conexão com o banco
+│   └── limpar_dados.py          # Zera votos e eleitores (auxiliar)
 │
-├── seed.py                    # Candidatos de exemplo
-├── demo.py                    # Modo demonstração (10 votos)
+├── sistema/
+│   ├── cadastrar_candidatos.py  # Cadastro e listagem de candidatos
+│   ├── eleitores.py             # Cadastro de eleitores
+│   ├── votacao.py               # Registro de votos
+│   └── apuracao.py              # Apuração e resultado
 │
-└── README.md
+└── extras/
+    ├── seed.py                  # Candidatos de exemplo
+    └── demo.py                  # Modo demonstração (10 votos)
 ```
 
 ### 🗄️ Modelo do Banco de Dados

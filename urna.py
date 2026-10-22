@@ -1,12 +1,12 @@
-from cadastrar_candidatos import (
+from sistema.cadastrar_candidatos import (
     cadastrar_candidato,
     listar_candidatos
 )
-from eleitores import cadastrar_eleitor
-from votacao import votar
-from apuracao import apurar_votos
-from seed import carregar_candidatos_exemplo
-from demo import modo_demonstracao
+from sistema.eleitores import cadastrar_eleitor
+from sistema.votacao import votar
+from sistema.apuracao import apurar_votos
+from extras.seed import carregar_candidatos_exemplo
+from extras.demo import modo_demonstracao
 
 
 def menu():
