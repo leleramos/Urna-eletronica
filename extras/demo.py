@@ -1,6 +1,6 @@
 import random
 import pymysql
-from sistema.apuracao import apurar_votos 
+from apuracao import apurar_votos
 
 
 
